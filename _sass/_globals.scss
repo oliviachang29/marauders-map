@@ -6,5 +6,88 @@ html, body {
 }
 
 * {
-  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: Google Sans, Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+#wrapper {
+	margin: 50px auto;
+	text-align: center;
+	width: 400px;
+	z-index: 1000;
+}
+
+#logo {
+	width: 200px;
+	height: 200px;
+	border-radius: 10000px;
+	object-fit: cover;
+}
+
+p {
+	font-size: 18px;
+}
+
+#name {
+	font-weight: bold;
+	font-size: 30px;
+	color: #000000;
+}
+
+#desc {
+	margin: 15px 0;
+}
+
+#quote {
+	font-style: italic;
+}
+
+#row {
+	display: flex;	 
+	@media only screen and (min-width : 992px) {
+	 	flex-direction: row;
+	}
+	a {
+		width: 200px;
+		margin: 30px 0 0;
+		text-decoration: none;
+		&:hover img {
+			transform: scale(1.05);
+		}
+		&:hover p {
+		   background-size: 30px 2px;
+		}
+	}
+	img {
+		margin: 0 auto;
+		height: 150px;
+		margin-bottom: 20px;
+		transition: .2s all ease;
+	}
+	p {
+		color: #4A4A4A;
+		padding-bottom: 5px;
+	  background-image: linear-gradient(120deg, #4A4A4A 0%, #4A4A4A 100%);
+	  background-repeat: no-repeat;
+	  background-size: 0px 2px;
+	  background-position: 50% 95%;
+	  transition: all 0.2s ease;
+	  transition-delay: .1s;
+	}
+}
+
+#questions {
+	z-index: -9999;
+	top: 0;
+	position: fixed;
+	opacity: 0.05;
+	filter: blur(5px);
+	max-height: 120%;
+	overflow: hidden;
+	-webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
 }
