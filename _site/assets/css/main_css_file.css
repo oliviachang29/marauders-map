@@ -34,18 +34,21 @@ p {
   font-style: italic; }
 
 #row {
-  display: flex; }
-  @media only screen and (min-width: 992px) {
+  display: flex;
+  flex-direction: column; }
+  @media only screen and (min-width: 500px) {
     #row {
       flex-direction: row; } }
   #row a {
-    width: 200px;
     margin: 30px 0 0;
     text-decoration: none; }
     #row a:hover img {
       transform: scale(1.05); }
     #row a:hover p {
       background-size: 30px 2px; }
+    @media only screen and (min-width: 500px) {
+      #row a {
+        width: 200px; } }
   #row img {
     margin: 0 auto;
     height: 150px;
