@@ -1,8 +1,8 @@
-# [Marauder's Map](https://harrypotter.oliviachang.me)
+# [Marauder's Map](https://maraudersmap.oliviachang.me)
 
 The Riddikulusly Difficult Harry Potter Quiz.
 
-<a href="https://harrypotter.oliviachang.me">
+<a href="https://maraudersmap.oliviachang.me">
 	<img src="/demo.png">
 </a>
 

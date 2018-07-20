@@ -1,8 +1,8 @@
 title: Marauder's Map
 description: >
   Riddikulusly difficult Harry Potter trivia game, for Alexa and Google Home.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+url: ""
 
 # Build settings
 markdown: kramdown
