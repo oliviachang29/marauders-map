@@ -12,3 +12,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+plugins_dir:
+  - jekyll-minifier
+sass:
+  style: compressed
